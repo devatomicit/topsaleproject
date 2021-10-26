@@ -1,0 +1,7 @@
+{
+  "api_base_prod": "https://superbacktest.topsale.qa",
+  "api_base_dev":    "https://superbacktest.topsale.qa",                  
+  "api_local": "http://localhost:3001",
+ "api_base_devs":"https://superbacktest.topsale.qa"
+}
+  

@@ -1,0 +1,46 @@
+:root{
+    --scroll-bar-color: #870D4F ;
+    --scroll-bar-bg-color: #FFFFFF ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.page-categ {
+    .title-page-categ {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .row-categ {
+        .column-parent-categ {
+            .title-parent-categ {
+                font-size: 25px;
+                font-weight: 500;
+                font-family: 'Poppins', sans-serif;
+                color: #495057;
+                margin: 20px 0 4px 0;
+                text-transform: capitalize;
+            }
+        }
+
+        .column-categs {
+            .link-categ {
+                .card-categ {
+                    position: relative;
+                    .footer-title-categ {
+                        text-align: center !important;
+                        width: fit-content;
+                        margin: 0 10px;
+                        padding: 0 5px;
+                        position: absolute;
+                        bottom: 9px;
+                        background: #00000073 !important;               
+                        .title-categ {
+                            font-family: 'Poppins', sans-serif;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
